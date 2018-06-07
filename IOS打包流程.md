@@ -10,7 +10,7 @@ _ _ _
 
 ## iOS 打包流程
 
-1. 在ionic 项目目录下运行 命令：
+1. 如果你是（Angular+Ionic）开发的混合项目,请在ionic 项目目录下运行 命令：
 	Ionic cordova build ios 
 	生成iOS原生可执行文件
 2. 创建APP Bundle Identifier
