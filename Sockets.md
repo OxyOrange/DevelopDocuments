@@ -12,7 +12,7 @@
 
     Socket可以支持不同的传输层协议（TCP或UDP），当使用TCP协议进行连接时，该Socket连接就是一个TCP连接,UDP连接同理。
 
-    ![](http://cc.cocimg.com/api/uploads/20160601/1464766627371148.jpg)
+    [](http://cc.cocimg.com/api/uploads/20160601/1464766627371148.jpg)
 
 #### IOS中socket使用的库函数
     在iOS中，OC提供了一套较为简单封装的socket， CFNetwork 和 CFNetServices，其中 CFNetwork 又是基于 CFStream 和 CFSocket。
