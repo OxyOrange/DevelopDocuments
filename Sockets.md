@@ -40,7 +40,7 @@
     * NSOutputStream：NSSTream的子类，用于写输出。
 
     客服端使用socket如下：
-     ![](https://github.com/zhanghouqi/DevelopDocuments/blob/master/Images/E2536132-C888-4C81-958F-B40A085996FF)
+     ![](https://github.com/zhanghouqi/DevelopDocuments/blob/master/Images/E2536132-C888-4C81-958F-B40A085996FF.png)
 
     在实际开发中，直接使用基于C的socket显得非常的不方便，有比较简单的方法，比如使用github的开源类库：CocoaAsyncSocket；
     CocoaAsyncSocketshi 是支持TCP和UMP的
