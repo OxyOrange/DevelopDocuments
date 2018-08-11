@@ -39,10 +39,10 @@
     * NSInputStream：NSStream的子类，用于读取输入
     * NSOutputStream：NSSTream的子类，用于写输出。
 
-    客服端使用socket如下：
+    客服端使用socket如下：
      ![](https://github.com/zhanghouqi/DevelopDocuments/blob/master/Images/E2536132-C888-4C81-958F-B40A085996FF.png)
 
     在实际开发中，直接使用基于C的socket显得非常的不方便，有比较简单的方法，比如使用github的开源类库：CocoaAsyncSocket；
-    CocoaAsyncSocketshi 是支持TCP和UMP的
+    CocoaAsyncSocketshi 是支持TCP和UMP的
     其使用：
     ![](https://github.com/zhanghouqi/DevelopDocuments/blob/master/Images/D473F3CE-5AE1-4B46-9FB2-35E875AC3E1C.png)
