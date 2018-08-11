@@ -12,7 +12,7 @@
 
     Socket可以支持不同的传输层协议（TCP或UDP），当使用TCP协议进行连接时，该Socket连接就是一个TCP连接,UDP连接同理。
 
-    ![](http://cc.cocimg.com/api/uploads/20160601/1464766627371148.jpg)
+ ![](http://cc.cocimg.com/api/uploads/20160601/1464766627371148.jpg)
 
 #### IOS中socket使用的库函数
     在iOS中，OC提供了一套较为简单封装的socket， CFNetwork 和 CFNetServices，其中 CFNetwork 又是基于 CFStream 和 CFSocket。
@@ -40,9 +40,9 @@
     * NSOutputStream：NSSTream的子类，用于写输出。
 
     客服端使用socket如下：
-     ![](https://github.com/zhanghouqi/DevelopDocuments/blob/master/Images/E2536132-C888-4C81-958F-B40A085996FF.png)
+   ![](https://github.com/zhanghouqi/DevelopDocuments/blob/master/Images/E2536132-C888-4C81-958F-B40A085996FF.png)
 
     在实际开发中，直接使用基于C的socket显得非常的不方便，有比较简单的方法，比如使用github的开源类库：CocoaAsyncSocket；
     CocoaAsyncSocketshi 是支持TCP和UMP的
     其使用：
-    ![](./blob/master/Images/D473F3CE-5AE1-4B46-9FB2-35E875AC3E1C.png)
+   ![](./blob/master/Images/D473F3CE-5AE1-4B46-9FB2-35E875AC3E1C.png)
